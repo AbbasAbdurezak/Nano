@@ -80,7 +80,7 @@ const handelSubmit = async (e) => {
 
   loader(messageDiv);
 
-  const respoense = await fetch('http://localhost:5050/', {
+  const respoense = await fetch('https://nano-31tc.onrender.com/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
